@@ -11,7 +11,7 @@ $(function () {
             });
 
             $("#eciNumber").change(function () {
-                var val = $("#eciNumber").val().toLowerCase();
+                var val = $("#eciNumber").val().toLowerCase();     
                 $("#barcode").igQRCodeBarcode("option", "eciNumber", val);
             });
 
